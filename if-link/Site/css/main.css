@@ -279,7 +279,6 @@ li:hover{
     padding-top: 31%;
 }
 
-
   @media screen and (min-width:1000px){
     .opção1{
         width:40%;
@@ -325,9 +324,9 @@ li:hover{
 
     .logo{
         float: left;
-        width: 20%;
+        width: 30%;
         padding: 0;
-        padding-top:1.5%
+        padding-top:19px;
     }
 
     .logo h2{
@@ -370,7 +369,7 @@ li:hover{
     .telagrande li{
         width:auto;
         display:inline-block;
-        padding:4.9%;
+        padding:24px;
         color:black;
         float:left;
         font-weight: 900;
@@ -378,7 +377,7 @@ li:hover{
 
     ul{
         height:auto;
-        width:60%;
+        width:74%;
         float:right;
     }
 
@@ -386,4 +385,24 @@ li:hover{
         color:white;
         border:1px solid white;
     }
+
+    .header1{
+        background: linear-gradient(#01ffff,#00b6b6) ;
+        width:100%;
+        height: 70px;
+    }
+    
+    .header2{
+        width:90%;
+        margin:auto;
+    }
+}
+
+ @media screen and (min-width:700px){
+    .ibg{
+        background: url(../img/Design\ sem\ nome\ \(4\).png) fixed;
+        height: 16%;
+    } 
+
+
 }
