@@ -1,13 +1,14 @@
 let menu = document.getElementsByClassName('option')[0]
-let close = document.getElementsByClassName("btn-close")[0]
+let fechar = document.getElementsByClassName('jsbtn-close')[0]
+let nav = document.getElementsByClassName('jsnav')[0]
 
 menu.addEventListener('click', clicar)
-close.addEventListener('click', fechar)
+fechar.addEventListener('click', close)
 
 function clicar(){
-    document.getElementsByTagName('nav')[0].style.display = 'block'
+    nav.style.display = 'block'
 }
 
-function fechar(){
-    document.getElementsByTagName('nav')[0].style.display = 'none'
+function close(){
+    nav.style.display = 'none'
 }

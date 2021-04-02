@@ -189,7 +189,7 @@ footer{
 
 /* MENU */
 
-nav{
+/*nav{
     background-color:rgba(0, 0, 0, 0.815);
     position: fixed;
     height: 100%;
@@ -231,4 +231,159 @@ li:hover{
     border: 1px solid #00b6b6;
     color: #00b6b6;
     transition: 0.5s;
+} */
+
+.telagrande{
+    display:none;
+}
+
+.jsnav{
+    background-color:rgba(0, 0, 0, 0.678);
+    position:fixed;
+    width:40%;
+    height:100%;
+    top:0;
+    left:0;
+    display:none;
+}
+
+.jsbtn-close{
+    float:right;
+    height:auto;
+    width:auto;
+    padding:4% 8%;
+    color:white;
+}
+
+.jsbtn-close i:hover{
+    color:rgb(255, 4, 4);
+    cursor:pointer;
+}
+
+li{
+    width:auto;
+    height:auto;
+    color:white;
+    padding:14%
+}
+
+li:hover{
+    border: 1px solid #00b6b6;
+    color: #00b6b6;
+    transition: 0.5s;
+}
+
+.jsnavul ul{
+    height:auto;
+    width:auto;
+    padding-top: 31%;
+}
+
+
+  @media screen and (min-width:1000px){
+    .opção1{
+        width:40%;
+        float:left;
+        height:62.5%;
+        margin-top:4%;
+        box-shadow: 5px 10px 20px 2px;
+    }
+
+    .opção2{
+        width:40%;
+        float:right;
+        height:62.5%;
+        margin-top:4%;
+        box-shadow: 5px 10px 20px 2px;
+    }
+
+    section{
+        height:100%;
+    }
+
+    .opção1 p{
+        padding-bottom: 6%;
+    }
+
+    .opção2 p{
+        padding: 0%;
+    }
+
+    .opção2 h2{
+        padding-bottom: 6%;
+    }
+
+    .opção1 img{
+        height:50.5%;
+    }
+
+    
+
+    .option{
+        display: none;
+    }
+
+    .logo{
+        float: left;
+        width: 20%;
+        padding: 0;
+        padding-top:1.5%
+    }
+
+    .logo h2{
+        width:30%;
+    }
+
+    .ibg{
+        background: url(../img/Design\ sem\ nome\ \(4\).png) fixed;
+        height: 16%;
+    }
+
+    .ibg p{
+        padding:0%;
+        padding-top: 0.5%;
+        font-size: 1.5em;
+        text-shadow: 10px 10px 14px 1px;
+        font-family: fantasy;
+    }
+
+    .ibg h2{
+        font-size: 2em;
+        padding: 0;
+        font-weight: 900;
+        text-shadow: 10px 10px 14px 1px;
+        font-family: fantasy;
+        padding-top: 1%;
+    }
+
+    .about-us{
+        display:none;
+    }
+
+    .telagrande{
+        display: inline-block;
+        width:70%;
+        color:black;
+        float: right;
+    }
+
+    .telagrande li{
+        width:auto;
+        display:inline-block;
+        padding:4.9%;
+        color:black;
+        float:left;
+        font-weight: 900;
+    }
+
+    ul{
+        height:auto;
+        width:60%;
+        float:right;
+    }
+
+    .telagrande li:hover{
+        color:white;
+        border:1px solid white;
+    }
 }
